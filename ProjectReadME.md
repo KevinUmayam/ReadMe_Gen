@@ -1,7 +1,36 @@
 # 09 Node.js Challenge: Professional README Generator
 
+## summary:
+
 completed Challenge:
-Weather Dashboard
+link to demo: [HERE](https://drive.google.com/file/d/1HJTqrfPIdhNf9EU4hGOVy0_LzWuUfN7m/view?usp=sharing)
+
+First we set inquirer and fs
+
+<img src="./assets/inquierer.png" alt="" width="200px" />
+
+The I create a variable that hold the function with the markdown of the future readme file.
+
+<img src="./assets/createMd.png" alt="" width="200px" />
+
+Then we provide the prompts that the user needs to fill out to complete thier readme.
+
+<img src="./assets/prompt.png" alt="" width="200px" />
+
+For the licence I used a switch case to assign the correct badge to all of them.
+
+<img src="./assets/switchBadge.png" alt="" width="200px" />
+
+finally we catch for erros with .catch
+
+<img src="./assets/error.png" alt="" width="200px" />
+
+finally we fill out the terminal promps and we get a read me
+
+<img src="./assets/terminal.png" alt="" width="200px" />
+
+Here is a github url to see the full readme.
+[Github Repo](https://github.com/KevinUmayam/ReadMe_Gen)
 
 ## Your Task
 

@@ -1,5 +1,25 @@
 {
+  "name": "readme_generator",
+  "version": "1.0.0",
+  "description": "readme generator npm package",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KevinUmayam/ReadMe_Generator.git"
+  },
+  "author": "KevinUmayam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinUmayam/ReadMe_Generator/issues"
+  },
+  "homepage": "https://github.com/KevinUmayam/ReadMe_Generator#readme",
   "dependencies": {
     "inquirer": "^8.2.4"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }
