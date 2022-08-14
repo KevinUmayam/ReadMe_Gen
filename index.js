@@ -14,9 +14,14 @@ const readMe = ({
   test,
   email,
   url,
+  qa,
 }) =>
   `## ${title}
+
+ ## Licence
  
+${licence}
+
 ## Table of contents
  
 1. [Licence](#licence)
@@ -30,10 +35,6 @@ const readMe = ({
 5. [Tests](#tests)
  
 6. [Questios](#questios)
- 
-## Licence
- 
-${licence}
  
 ## Description
  
@@ -56,6 +57,9 @@ ${contribution}
 ${test}
  
 ## Questios
+
+Here are some common QA's:
+${qa}
  
 If you have any further question you can reach me here: ${email}
  
@@ -151,6 +155,21 @@ inquirer
       type: "input",
       Message: "What command can the user use to run a test?",
       name: "test",
+      //make sure they answer something
+      validate: function (answer) {
+        if (answer.length < 1) {
+          console.log("must provide an answer");
+        } else {
+          return true;
+        }
+      },
+    },
+    {
+      //email input
+      type: "input",
+      Message:
+        "Write some frequently asked questions or Common bugs and their solution",
+      name: "qa",
       //make sure they answer something
       validate: function (answer) {
         if (answer.length < 1) {
