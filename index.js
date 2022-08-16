@@ -73,7 +73,7 @@ inquirer
     //Input for title of your project
     {
       type: "input",
-      Message: "Enter the title of your project",
+      message: "Enter the title of your project",
       name: "title",
       //make sure they answer something
       validate: function (answer) {
@@ -87,7 +87,7 @@ inquirer
     // Input for discription of your project
     {
       type: "input",
-      Message: "Enter a description of your project",
+      message: "Enter a description of your project",
       name: "description",
       //make sure they answer something
       validate: function (answer) {
@@ -102,7 +102,7 @@ inquirer
     //installation
     {
       type: "input",
-      Message: "Enter instructions for how to install your app",
+      message: "Enter instructions for how to install your app",
       name: "installation",
       //make sure they answer something
       validate: function (answer) {
@@ -131,7 +131,7 @@ inquirer
     {
       //license choices
       type: "list",
-      Message: "What license should your project have? ",
+      message: "What license should your project have? ",
       name: "licence",
       choices: ["apache-2.0", "Boost_1.0", "BSD_3", "MIT", "ISC"],
       //make sure they answer something
@@ -139,7 +139,7 @@ inquirer
     {
       //contribution inputs
       type: "input",
-      Message: "What should the user know about contributing to the repo?",
+      message: "What should the user know about contributing to the repo?",
       name: "contribution",
       //make sure they answer something
       validate: function (answer) {
@@ -153,7 +153,7 @@ inquirer
     {
       //test input
       type: "input",
-      Message: "What command can the user use to run a test?",
+      message: "What command can the user use to run a test?",
       name: "test",
       //make sure they answer something
       validate: function (answer) {
@@ -167,7 +167,7 @@ inquirer
     {
       //email input
       type: "input",
-      Message:
+      message:
         "Write some frequently asked questions or Common bugs and their solution",
       name: "qa",
       //make sure they answer something
@@ -182,7 +182,7 @@ inquirer
     {
       //email input
       type: "input",
-      Message: "What email can they use to reach you?",
+      message: "What email can they use to reach you?",
       name: "email",
       //make sure they answer something
       validate: function (answer) {
@@ -196,7 +196,7 @@ inquirer
     {
       //url to github repo
       type: "input",
-      Message: "Provide your github URL",
+      message: "Provide your github URL",
       name: "url",
       //make sure they answer something
       validate: function (answer) {

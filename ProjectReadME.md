@@ -27,7 +27,7 @@ finally we catch for erros with .catch
 
 finally we fill out the terminal promps and we get a read me
 
-<img src="./assets/terminal.png" alt="" width="200px" />
+<img src="./assets/propts.png" alt="" width="200px" />
 
 Here is a github url to see the full readme.
 [Github Repo](https://github.com/KevinUmayam/ReadMe_Gen)
